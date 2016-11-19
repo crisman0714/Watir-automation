@@ -1,0 +1,9 @@
+#requires
+require 'watir'
+
+#includes
+include Watir
+
+ie = IE.new
+
+ie.goto( 'http://google.com/' )
